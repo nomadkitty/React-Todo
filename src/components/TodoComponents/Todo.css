@@ -1,12 +1,56 @@
 .item {
-  background-color: #e64944;
+  background-color: #69e0bd;
   width: 45%;
-  text-align: left;
-  margin: 4px 0;
-  padding-left: 8px;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 10px;
+  
 }
 
 .item.completed {
   background-color: #d17d7c;
   text-decoration: line-through;
+}
+
+.app {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background: azure;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+.todoBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 200px;
+  margin: 32px;
+  padding: 12px 20px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #e75b09;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+input {
+  display: block;
+  width: 50%;
+  margin: 32px auto 0;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  padding: 15px;
+  background: rgba(236, 233, 13, 0.5);
 }
